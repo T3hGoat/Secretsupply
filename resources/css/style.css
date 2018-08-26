@@ -1,0 +1,61 @@
+*{
+  color: white;
+}
+
+.head{
+  background-color: black;
+  display: flex;
+}
+
+
+.feature{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  width: 1280px;
+  height: 300px;
+}
+
+.feature-text{
+  background-color: black;
+}
+
+.navigation{
+  background-color: red;
+}
+
+.products{
+  display: flex;
+}
+
+.item-pen{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+}
+
+.item-watch{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+}
+
+.item-glasses{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
+  background-repeat:  no-repeat;
+  height: 300px;
+  width: 300px;
+}
+
+.footer{
+  background-color: black;
+  height: 200px;
+  text-align: left;
+}
+
+.footer p{
+  padding-top:100px;
+}
