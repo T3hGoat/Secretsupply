@@ -11,7 +11,7 @@ p{
   font-size: 1rem;
 }
 
-.head, .feature-text, .footer{
+.head, .feature-text, .footer, .descript{
   background-color: black;
 }
 
@@ -27,14 +27,14 @@ p{
   height: 1.5rem;
 }
 
-span{
+span, li{
   font-size: 1rem;
   font-weight: bold;
 }
 
 h1{
-    font-weight: bold;
-    font-size: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .feature{
@@ -47,9 +47,9 @@ h1{
 }
 
 .site-content{
-    max-width: 960px;
-    margin: 0 auto;
-    height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 100%;
 }
 
 .feature-text{
@@ -58,7 +58,6 @@ h1{
   flex-direction: column;
   position: relative;
   top: 9rem;
-
 }
 
 .feature-text span{
@@ -70,31 +69,47 @@ h1{
 }
 
 .navigation{
-  background-color: red;
+  background-color: firebrick;
+}
+
+nav{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
 }
 
 .products{
   display: flex;
+  justify-content: space-between;
+    max-width: 960px;
+    margin: 3rem auto;
 }
 
-
-.item-pen, .item-watch, .item-glasses{  background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
-
+.item{
+  width: 30%;
+  overflow: hidden;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
-
-.item-pen{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png);
+.item img{
+  padding: 2rem 0rem;
+  max-width: 100%;
+  max-height: 9rem;
+  margin: 0 auto;
 }
 
-.item-watch{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png);
-}
-
-.item-glasses{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png);
+.descript{
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
 }
 
 .footer{
