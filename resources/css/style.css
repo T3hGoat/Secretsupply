@@ -94,12 +94,13 @@ nav ul{
 .item-img{
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0rem;
 }
 
 .item-img img{
-  max-width: 100%;
-  padding: 2rem 0rem;
-  height: 9rem;
+  max-width: 8rem;
 }
 
 .descript{
